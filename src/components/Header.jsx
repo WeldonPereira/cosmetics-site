@@ -8,11 +8,11 @@ const Header = () => {
   };
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#services", label: "Services" },
-    { href: "#about", label: "About" },
-    { href: "#speccialists", label: "Our speccialists" },
-    { href: "#contact", label: "Contact" },
+    { href: "#home", label: "Início" },
+    { href: "#services", label: "Serviços" },
+    { href: "#about", label: "Sobre Nós" },
+    { href: "#speccialists", label: "Nossos Especialistas" },
+    { href: "#contact", label: "Contato" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const Header = () => {
           href="/"
           className="flex items-center focus:outline-none focus:ring-2 focus:ring-pink-600 rounded"
         >
-          <h1 className="text-2xl font-bold text-pink-600">Glamour Clinic</h1>
+          <h1 className="text-2xl font-bold text-pink-600">Clínica Glamour</h1>
         </a>
 
         {/* Navegação desktop */}
@@ -79,7 +79,7 @@ const Header = () => {
             href="#appointment"
             className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full transition-colors duration-200 shadow-md focus:outline-none focus:ring-2 focus:ring-pink-800 focus:ring-offset-2"
           >
-            Book Appointment
+            Agendar Consulta
           </a>
         </nav>
       </div>
