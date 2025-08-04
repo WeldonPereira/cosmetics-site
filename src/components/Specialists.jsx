@@ -64,11 +64,12 @@ const Specialists = () => {
             aria-hidden="true"
           ></span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 relative z-10">
-            Meet Our <span className="text-pink-600">Expert Team</span>
+            Conheça nossa{" "}
+            <span className="text-pink-600">Equipe Especializada</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto relative z-10">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
-            earum, quis
+            Profissionais altamente qualificados, prontos para oferecer
+            segurança, tecnologia e atendimento humanizado.
           </p>
           <span
             className="absolute -bottom-6 right-1/4 w-16 h-16 rounded-full bg-purple-100 opacity-20 z-0"
@@ -96,7 +97,7 @@ const Specialists = () => {
                   ></span>
                   <aside
                     className="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full flex items-center shadow-sm"
-                    aria-label={`Rating: ${doctor.rating} stars`}
+                    aria-label={`Avaliação: ${doctor.rating} estrelas`}
                   >
                     {renderStars(doctor.rating)}
                     <span className="ml-1 text-sm font-medium">
@@ -151,26 +152,26 @@ const Specialists = () => {
           ></span>
           <div className="relative z-10">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-              Ready to consult with our specialists?
+              Pronto para agendar sua consulta com nossos especialistas?
             </h3>
             <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi, nisi iste! Fugiat deserunt ut sint qui
+              Entre em contato e descubra como podemos valorizar sua beleza de
+              forma segura, moderna e personalizada.
             </p>
             <nav className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href="#"
                 className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3 rounded-full transition shadow-lg focus:outline-none focus:ring-2 focus:ring-pink-800 focus:ring-offset-2"
-                aria-label="Book a consultation"
+                aria-label="Agendar uma consulta"
               >
-                Book Consulatation
+                Agendar Consulta
               </a>
               <a
                 href="#"
-                className=" border border-pink-600 hover:bg-pink-50 text-pink-600 px-8 py-3 rounded-full transition shadow-lg focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
-                aria-label="Contact us"
+                className="border border-pink-600 hover:bg-pink-50 text-pink-600 px-8 py-3 rounded-full transition shadow-lg focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+                aria-label="Fale conosco"
               >
-                Contact Us
+                Fale Conosco
               </a>
             </nav>
           </div>
